@@ -9,7 +9,8 @@ export default function ErrorPage() {
   let message = "Something went wrong!";
 
   if (error.status === 500) {
-    message = JSON.parse(error.data).message;
+    // message = JSON.parse(error.data).message;
+    message = error.data.message; // with json() helper function we can directly access the message property (no need to parse JSON string to object first)
   }
 
   if (error.status === 404) {

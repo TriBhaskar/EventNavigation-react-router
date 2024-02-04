@@ -1,12 +1,8 @@
-import { useLoaderData } from "react-router-dom";
+import { json, useLoaderData } from "react-router-dom";
 import EventsList from "../components/EventsList";
 
 function EventsPage() {
   const data = useLoaderData(); // useLoaderData() converts response to objects
-
-  if (data.isError) {
-    return <p>{data.message}</p>;
-  }
   const events = data.events;
   return (
     <>
@@ -26,9 +22,10 @@ export async function loader() {
 
   if (!response.ok) {
     // return { isError: true, message: "Failed to fetch events" };
-    throw new Response(JSON.stringify({ message: "Failed to fetch events" }), {
-      status: 500,
-    });
+    // throw new Response(JSON.stringify({ message: "Failed to fetch events" }), {
+    //   status: 500,
+    // });
+    throw json({ message: "Failed to fetch events" }, { status: 500 }); // json() is a helper function that returns a response object with a JSON body
   } else {
     return response;
   }
