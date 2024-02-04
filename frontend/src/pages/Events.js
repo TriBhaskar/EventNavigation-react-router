@@ -22,7 +22,7 @@ export default EventsPage;
  * @returns {Promise<Array>} A promise that resolves to an array of events.
  */
 export async function loader() {
-  const response = await fetch("http://localhost:8080/eventasdasd");
+  const response = await fetch("http://localhost:8080/events");
 
   if (!response.ok) {
     // return { isError: true, message: "Failed to fetch events" };
