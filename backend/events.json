@@ -1,11 +1,1 @@
-{
-  "events": [
-    {
-      "id": "e1",
-      "title": "A dummy event",
-      "date": "2023-02-22",
-      "image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
-      "description": "Join this amazing event and connect with fellow developers."
-    }
-  ]
-}
+{"events":[{"title":"Rojer","image":"https://img.asmedia.epimg.net/resizer/rOv3xUC4HnGP7zuKYYCMoRARpEc=/1472x1104/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/YFFD3QBX2ZHX5CQCLGKWBTBUJA.png","date":"2002-03-20","description":"Roger is comming","id":"ca22a377-28fb-4922-b2a3-0ec459e27ad7"},{"title":"A new event","image":"https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/01/31/one-piece-episodes.jpg","date":"2012-07-12","description":"presnt","id":"71658a2f-7fad-4aa0-bdca-9f599d3056aa"},{"title":"A second event","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx7K3TKmFQ_rJwB951aQyqPghMyZbnRqAgLg&usqp=CAU","date":"1994-05-12","description":"A past event","id":"faa11e93-b6a0-4bfc-a241-03284d5a4b82"},{"title":"A new event","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWIwdv4W9exUT91-bSaI0_xZyU2Dz1mOYd-A&usqp=CAU","date":"2024-02-06","description":"Some awesome event","id":"b4f1d403-825f-426c-a959-0997cdc56ffb"},{"id":"e1","title":"A dummy event","date":"2023-02-22","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","description":"Join this amazing event and connect with fellow developers."}]}
