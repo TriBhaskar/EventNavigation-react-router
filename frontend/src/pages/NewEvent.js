@@ -22,7 +22,10 @@ export async function action({ request, params }) {
   });
 
   if (!response.ok) {
-    throw json({ message: "Could not send event." }, { status: 500 });
+    throw json(
+      { message: "Could not send event." },
+      { status: response.status }
+    );
   }
 
   return redirect("/events");
