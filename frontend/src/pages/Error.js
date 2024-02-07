@@ -13,6 +13,10 @@ export default function ErrorPage() {
     message = error.data.message; // with json() helper function we can directly access the message property (no need to parse JSON string to object first)
   }
 
+  if (error.status === 422) {
+    message = error.data.message;
+  }
+
   if (error.status === 404) {
     title = "Page not found!";
     message = "Could not find resource or page!";
